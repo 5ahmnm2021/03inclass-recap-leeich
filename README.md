@@ -1,8 +1,5 @@
 # 03inclass-recap-leeich
 
-# README
-MatteoEtzer's Project
-
 ### Project description: 
 Unity Recap 2020/2021
 
