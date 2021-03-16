@@ -7,14 +7,16 @@ public class addNumbers : MonoBehaviour
 {
     public InputField num1_in;
     public InputField num2_in;
+    public Text result;
+
     float num1;
     float num2;
-    public Text result;
-    bool correctIn1 = false;
-    bool correctIn2 = false;
-
+    
     public void AddNumbersOnClick()
     {
+        bool correctIn1 = false;
+        bool correctIn2 = false;
+
      try
         {
             num1 = float.Parse(num1_in.text);
