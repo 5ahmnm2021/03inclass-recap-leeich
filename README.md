@@ -2,6 +2,10 @@
 
 ### Project description: 
 Unity Recap 2020/2021
+Three scenes:
+1 Welcome scene
+2 Color Change scene
+3 Simple Calulator scene
 
 ### Development platform: 
 macOS Big Sur, Visual Studio, Unity 2020.1.5f1
@@ -25,6 +29,6 @@ none
 none
 
 ### Lessons Learned:
-Revision of Unity/C# Basics. 
+Revision of Unity/C# Basics.
 
 Copyright by Leo Eichinger :)
