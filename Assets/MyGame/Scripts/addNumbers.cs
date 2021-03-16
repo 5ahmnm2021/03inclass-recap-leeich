@@ -37,7 +37,7 @@ public class addNumbers : MonoBehaviour
             correctIn2 = false;
         }
         
-        if (correctIn1 == true | correctIn2 == true)
+        if (correctIn1 && correctIn2)
         {
             float addResult = num1 + num2;
             result.text = addResult.ToString();
