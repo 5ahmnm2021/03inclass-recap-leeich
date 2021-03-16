@@ -24,6 +24,7 @@ public class addNumbers : MonoBehaviour
         {
             num1_in.image.color = new Color32(255,0,0,100);
             correctIn1 = false;
+            StartCoroutine(ResetCoroutine());
         }
 
         try
@@ -35,6 +36,7 @@ public class addNumbers : MonoBehaviour
         {
             num2_in.image.color = new Color32(255,0,0,100);
             correctIn2 = false;
+            StartCoroutine(ResetCoroutine());
         }
         
         if (correctIn1 && correctIn2)
@@ -46,6 +48,18 @@ public class addNumbers : MonoBehaviour
         {
             result.text = "Wrong input";
         }
-        
+
+        IEnumerator ResetCoroutine()
+        {
+        yield return new WaitForSeconds(3);
+        num2_in.image.color = new Color32(255,255,255,100);
+        num1_in.image.color = new Color32(255,255,255,100);
+        result.text = "...";
+        num1_in.text = "...";
+        num2_in.text = "...";
+        }
+
     }
+        
 }
+
