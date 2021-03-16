@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class colorChanger : MonoBehaviour
@@ -9,13 +7,7 @@ public class colorChanger : MonoBehaviour
 
     public void ChangeColor()
     {
-        Color[] colors =
-        {
-            new Color32(255,205,25,100),
-            new Color32(95,34,0,100),
-            new Color32(207,63,21,100),
-            new Color32(102,47,84,100)
-        };
+        Color[] colors ={new Color32(255,205,80,100), new Color32(95,34,0,100), new Color32(207,63,21,100), new Color32(102,47,84,100)};
 
         if (Input.GetKeyDown("space"))
         {
