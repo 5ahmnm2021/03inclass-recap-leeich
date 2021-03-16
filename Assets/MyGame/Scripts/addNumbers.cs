@@ -8,14 +8,14 @@ public class addNumbers : MonoBehaviour
     public InputField num1_in;
     public InputField num2_in;
     public Text result;
-
-    float num1;
-    float num2;
     
     public void AddNumbersOnClick()
     {
         bool correctIn1 = false;
         bool correctIn2 = false;
+
+        float num1 = 0;
+        float num2 = 0;
 
      try
         {
